@@ -1,0 +1,25 @@
+{
+  "name": "vue-scroll-progress",
+  "version": "1.0.0",
+  "description": "a vue directive that calls given function with scroll progress of binded element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jd1378/vue-scroll-progress.git"
+  },
+  "keywords": [
+    "vue",
+    "scroll",
+    "progress",
+    "directive"
+  ],
+  "author": "jd1378",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jd1378/vue-scroll-progress/issues"
+  },
+  "homepage": "https://github.com/jd1378/vue-scroll-progress#readme"
+}
