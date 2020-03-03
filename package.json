@@ -1,5 +1,5 @@
 {
-  "name": "vue-scroll-progress",
+  "name": "v-scroll-progress",
   "version": "1.0.0",
   "description": "a vue directive that calls given function with scroll progress of binded element",
   "main": "index.js",
