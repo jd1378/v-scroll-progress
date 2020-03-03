@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jd1378/vue-scroll-progress.git"
+    "url": "git+https://github.com/jd1378/v-scroll-progress.git"
   },
   "keywords": [
     "vue",
@@ -19,7 +19,7 @@
   "author": "jd1378",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jd1378/vue-scroll-progress/issues"
+    "url": "https://github.com/jd1378/v-scroll-progress/issues"
   },
-  "homepage": "https://github.com/jd1378/vue-scroll-progress#readme"
+  "homepage": "https://github.com/jd1378/v-scroll-progress#readme"
 }
