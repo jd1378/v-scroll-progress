@@ -39,3 +39,9 @@ export default {
 
 </script>
 ```
+
+## Example
+
+A working example is available here: https://tpdqp.csb.app/
+
+[![Edit v-scroll-progress-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/brave-germain-tpdqp?fontsize=14&hidenavigation=1&theme=dark)
