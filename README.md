@@ -1,13 +1,18 @@
 # v-scroll-progress
+
 a vue directive that calls given function with scroll progress of binded element
 
 ## Installation
+
 npm
-```
+
+```bash
 npm install v-scroll-progress --save
 ```
+
 yarn
-```
+
+```bash
 yarn add v-scroll-progress
 ```
 
@@ -42,6 +47,6 @@ export default {
 
 ## Example
 
-A working example is available here: https://tpdqp.csb.app/
+A working example is [available here](https://tpdqp.csb.app/)
 
 [![Edit v-scroll-progress-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/brave-germain-tpdqp?fontsize=14&hidenavigation=1&theme=dark)
