@@ -30,6 +30,9 @@ Vue.use(scrollProgress);
   <div v-scroll-progress="scrollProgress">
     an element with scrollable content
   </div>
+  <div v-scroll-progress.horizontal="scrollProgress">
+    an element with horizontal scrollable content
+  </div>
 </template>
 
 <script>

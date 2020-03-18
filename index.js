@@ -8,17 +8,20 @@ const plugin = {
           return;
         }
 
-        const isVertical = el.clientHeight < el.scrollHeight;
+        const isHorizontal = !!binding.modifiers.horizontal;
         const f = function(e) {
           let progress;
-          if (isVertical) {
-            const currentScroll = el.scrollTop;
-            const height = el.scrollHeight - el.clientHeight;
-            progress = (currentScroll / height) * 100;
-          } else {
+          if (isHorizontal) {
             const currentScroll = el.scrollLeft;
             const width = el.scrollWidth - el.clientWidth;
             progress = (currentScroll / width) * 100;
+          } else {
+            const currentScroll = el.scrollTop;
+            const height = el.scrollHeight - el.clientHeight;
+            progress = (currentScroll / height) * 100;
+          }
+          if (isNaN(progress)) {
+            return;
           }
           binding.value(progress);
         };
