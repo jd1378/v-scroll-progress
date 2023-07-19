@@ -34,15 +34,19 @@ const unbind = (el, binding) => {
   }
 };
 
-const plugin = {
-  install(Vue, options) {
-    Vue.directive("scroll-progress", {
-      inserted,
-      mounted: inserted, // vue 3 "inserted"
-      unbind,
-      unmounted: unbind, // vue 3 "unbind"
-    });
-  },
+const directive = {
+  inserted,
+  mounted: inserted, // vue 3 "inserted"
+  unbind,
+  unmounted: unbind, // vue 3 "unbind"
+}
+
+const install = function installVScrollThreshold(Vue) {
+  if (install.installed) return;
+  install.installed = true;
+  Vue.directive("scroll-progress", directive);
 };
 
-export default plugin;
+directive.install = install;
+
+export default directive;
