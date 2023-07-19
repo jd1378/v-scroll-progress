@@ -30,7 +30,7 @@ const inserted = (el, binding) => {
 
 const unbind = (el, binding) => {
   if (el._scrollProgress) {
-    el.removeEventListener("scroll", el._scrollProgress);
+    el.removeEventListener("scroll", el._scrollProgress, {passive: true});
   }
 };
 
